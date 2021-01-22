@@ -24,6 +24,10 @@ class SnakeAndLadder
 			{
 				pos=0;
 			}
+			if (pos>100)
+			{
+				pos=pos;
+			}
 		}
      	System.out.println("The current position of the player is : " +pos);
    }
